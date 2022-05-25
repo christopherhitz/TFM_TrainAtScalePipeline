@@ -6,8 +6,8 @@ wheel>=0.29
 
 # data science
 numpy
-pandas
-scikit-learn
+pandas==1.4.2
+scikit-learn==1.1.1
 
 # tests/linter
 black
@@ -17,8 +17,8 @@ pytest
 yapf
 
 # API
-gcsfs
-google-cloud-storage
+gcsfs==2022.5.0
+google-cloud-storage==2.3.0
 mlflow
 s3fs
 
